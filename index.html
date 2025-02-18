@@ -3,13 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Virid Build</title>
+    <title>ViridBuild - Professional Plastering Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
+        body {
+            font-family: Arial, sans-serif;
+        }
     </style>
 </head>
-<body>
-    <h1>Welcome to Virid Build</h1>
-    <p>This is a simple one-page site hosted on GitHub Pages.</p>
+<body class="bg-gray-100 text-gray-900">
+    
+    <!-- Hero Section -->
+    <section class="relative w-full h-screen bg-cover bg-center flex flex-col items-center justify-center text-white text-center" style="background-image: url('hero-image.jpg');">
+        <img src="Viridbuild_logo.jpeg" alt="ViridBuild Logo" class="w-40 mb-4">
+        <h1 class="text-4xl font-bold">Professional Plastering Services</h1>
+        <p class="text-lg mt-2">for a Smooth & Lasting Finish</p>
+        <a href="#contact" class="mt-6 px-6 py-3 bg-yellow-500 text-white font-semibold rounded-full shadow-lg hover:bg-yellow-600">Get a Quote</a>
+    </section>
+    
+    <!-- Our Story -->
+    <section class="max-w-5xl mx-auto p-10 text-center">
+        <h2 class="text-3xl font-bold">Our Story</h2>
+        <p class="mt-4 text-lg">Welcome to Virid Build, where we turn houses into homes through the art of perfect plastering. For over a decade, our hands have smoothed walls that have witnessed countless family moments, celebrated milestones, and sheltered dreams. We're not only plasterers—we're craftsmen who understand that every wall we finish becomes part of your daily life.</p>
+        <p class="mt-4 text-lg">Our story began with a simple passion: creating flawless surfaces that make spaces feel complete. Today, that same dedication lives in every project we touch, whether we're breathing new life into a cherished family home or helping businesses create inviting environments for their customers. Our team brings more than just tools to your project, we bring care, attention, and a genuine desire to make your space perfect.</p>
+        <p class="mt-4 text-lg">At Virid Build, we believe every surface tells a story. We take pride in knowing that our craftsmanship will be there, silently supporting your memories for years to come.</p>
+    </section>
+    
+    <!-- Services -->
+    <section class="bg-white py-10">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-3xl font-bold">Our Services</h2>
+            <div class="grid md:grid-cols-2 gap-6 mt-8">
+                <div class="bg-gray-200 p-6 rounded-lg shadow-md">
+                    <img src="plastering.jpg" alt="Plastering" class="rounded-md mb-4">
+                    <h3 class="text-xl font-semibold">Plastering & Skimming</h3>
+                    <p class="mt-2">Every wall we touch becomes a canvas for your life's story. Our skilled craftsmen don't just plaster walls—we create surfaces that will witness your children's first artwork, family photos, and countless moments of joy. With gentle hands and careful attention, we ensure each surface is perfect, ready to embrace your family's future.</p>
+                </div>
+                <div class="bg-gray-200 p-6 rounded-lg shadow-md">
+                    <img src="rendering.jpg" alt="Rendering" class="rounded-md mb-4">
+                    <h3 class="text-xl font-semibold">Rendering & External Plastering</h3>
+                    <p class="mt-2">Your home's exterior tells a story to the world. Like a protective embrace, our rendering wraps your home in beauty and strength. We create surfaces that not only catch admiring glances but stand strong through seasons of memories, protecting your family's for years to come.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact -->
+    <section id="contact" class="bg-gray-900 text-white py-10 text-center">
+        <h2 class="text-3xl font-bold">Contact Us</h2>
+        <p class="mt-4">📞 07422655684 | ✉️ info@viridbuild.com</p>
+        <div class="mt-6 max-w-md mx-auto">
+            <form class="bg-white p-6 rounded-lg shadow-md text-gray-900">
+                <input type="text" placeholder="Name" class="w-full p-3 mb-4 border rounded">
+                <input type="email" placeholder="Email" class="w-full p-3 mb-4 border rounded">
+                <textarea placeholder="Message" class="w-full p-3 mb-4 border rounded"></textarea>
+                <button type="submit" class="w-full px-6 py-3 bg-yellow-500 text-white font-semibold rounded shadow-lg hover:bg-yellow-600">Submit</button>
+            </form>
+        </div>
+    </section>
+    
 </body>
 </html>
